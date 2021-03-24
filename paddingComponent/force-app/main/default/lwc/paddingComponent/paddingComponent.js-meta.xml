@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Padding Component</masterLabel>
+    <description>A component to be used to output a list of tasks due to be completed by the logged scholar.</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="size" type="string" label="Padding Size" default="Medium" datasource="Extra Extra Extra Small, Extra Extra Small, Extra Small, Small, Medium, Large, Extra Large, Extra Extra Large"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
